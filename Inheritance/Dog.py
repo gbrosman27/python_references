@@ -10,7 +10,7 @@ class Dog(Animal):
 
 
 # Instantiate an instance of Kobe the dog.
-kobe = Dog("Kobe", 7, "male", "rottweiler", "brown")
+kobe = Dog("Kobe", "ball", 7, "male", "rottweiler", "brown")
 
 dog_toys = ["kong", "ball", "bone", "chicken"]
 for toy in dog_toys:
