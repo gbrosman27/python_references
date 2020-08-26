@@ -25,4 +25,4 @@ kobe.speak("Bark, bark, woof, roo!")
 
 
 # Check if inheritance is True.
-# print(issubclass(Dog, Animal))
+print(issubclass(Dog, Animal))
