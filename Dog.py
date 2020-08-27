@@ -1,4 +1,3 @@
-# The class to represent a Dog.
 from Inheritance.Animal import Animal
 
 
