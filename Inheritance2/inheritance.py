@@ -23,4 +23,3 @@ class Cat(Animal):
 blue = Cat("Toonces", "Tabby", "Mouse")
 print(blue.play())
 print(blue.make_sound("meow meow"))
-
