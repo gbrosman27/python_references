@@ -24,7 +24,7 @@ class User:
     def favorite_sport(self, sport):
         return f"{self.first}'s favorite sport is {sport}."
 
-    def is_an_adult(self, age):
+    def is_an_adult(self):
         if self.age > 18:
             return f"{self.full_name()} is {self.age} years old and is an adult."
         return f"{self.full_name()} is not an adult."
@@ -51,7 +51,7 @@ jasmine = Moderator("Jasmine", "O'Connor", 47, "Piano")
 print(user1.full_name())
 print(user2.initials())
 print(user2.favorite_sport("swimming"))
-print(user2.is_an_adult(31))
+print(user2.is_an_adult())
 print(user1.birthday())
 print(user1.age)
 print(User.display_active_users())
